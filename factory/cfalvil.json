@@ -1,0 +1,9 @@
+{
+	"name": "cfalvil",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "335814c0-bd04-4022-b362-9a39f0c1f90a",
+		"tenantId": "2587ad29-a56c-40de-91a2-3dcab97ea67a"
+	}
+}
