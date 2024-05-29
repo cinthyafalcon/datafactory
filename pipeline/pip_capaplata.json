@@ -1,0 +1,28 @@
+{
+	"name": "pip_capaplata",
+	"properties": {
+		"activities": [
+			{
+				"name": "Bronce hacia Plata",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/cinthya.falcon@usaloans.net/Transferir datos de Capa Bronce hacia Capa Plata"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_DataFactory",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}

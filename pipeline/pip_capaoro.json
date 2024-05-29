@@ -1,0 +1,28 @@
+{
+	"name": "pip_capaoro",
+	"properties": {
+		"activities": [
+			{
+				"name": "Plata hacia oro",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/cinthya.falcon@usaloans.net/Transferir datos Capa Plata a Capa Oro"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_DataFactory",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
